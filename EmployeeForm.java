@@ -93,7 +93,7 @@ class EmployeeForm extends JFrame
 		}
 		catch(SQLException e)
 		{
-			info.setText("unnable to get connected to the database");
+			info.setText("unnable to get connected to the database.");
 		}
 		catch (Exception e)
 		{
@@ -225,7 +225,7 @@ class ShowListener implements ActionListener
 		}
 		catch(Exception de)
 		{
-			info.setText("Enter proper Empno before Selecting show...");
+			info.setText("Enter proper Empno before Selecting show button...");
 		}
 	}
 }
